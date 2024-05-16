@@ -3,7 +3,8 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: #5E63BA;
+    /* background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
+    background-color: #27187e;
     font-family: 'Roboto', sans-serif;
     padding: 0 10px;
 }
@@ -11,7 +12,7 @@ body {
 .container {
     width: 850px;
     min-height: 500px;
-    background-color: #fff;
+    background-color: #F1F2F6;
     display: flex;
     gap: 70px;
     align-items: center;
@@ -78,7 +79,7 @@ body {
 }
 
 .game-box .guesses-text b {
-    color: #ff0000;
+    color: #CD3735;
 }
 
 .game-box .keyboard {
@@ -90,12 +91,12 @@ body {
 }
 
 :where(.game-modal, .keyboard) button {
-    color: #fff;
+    color: #F1F2F6;
     font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
     outline: none;
-    background-color: #5E63BA;
+    background-color: #3B359E;
     border: none;
     border-radius: 4px;
     text-transform: uppercase;
@@ -107,7 +108,7 @@ body {
 }
 
 :where(.game-modal, .keyboard) button:hover {
-    background-color: #8286c9;
+    background-color: #4E52BE;
 }
 
 .game-modal {
@@ -123,7 +124,7 @@ body {
 }
 
 .game-modal .content {
-    background: #fff;
+    background: #F1F2F6;
     max-width: 420px;
     width: 100%;
     text-align: center;
@@ -147,7 +148,7 @@ body {
 }
 
 .game-modal p b {
-    color: #5E63BA;
+    color: #3B359E;
     font-weight: 600;
 }
 
